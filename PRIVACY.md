@@ -33,7 +33,7 @@
 * La actualización vitalicia a **OneProxyClick Pro** se procesa íntegramente mediante el sistema oficial de **Google Play Billing**. OneProxyClick no tiene acceso a tarjetas bancarias ni datos financieros; únicamente recibe de Google Play un token criptográfico de confirmación para desbloquear las funciones Pro.
 
 ### 6. Cambios y contacto
-Cualquier actualización a esta Política de Privacidad se publicará en esta misma página. Si tienes dudas sobre privacidad o seguridad, escribe a: **tu-correo@ejemplo.com**.
+Cualquier actualización a esta Política de Privacidad se publicará en esta misma página. Si tienes dudas sobre privacidad o seguridad, escribe a: **kevinmitnick1313@gmail.com**.
 
 ---
 
