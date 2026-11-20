@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OneProxyClick</string>
+
+    <!-- Common -->
+    <string name="common_cancel">Cancel</string>
+    <string name="common_delete">Delete</string>
+    <string name="common_save">Save</string>
+
+    <!-- Navigation / top bar -->
+    <string name="tab_proxy">Proxy</string>
+    <string name="tab_intercept">Intercept</string>
+    <string name="tab_repeater">Repeater</string>
+    <string name="tab_tools">Tools</string>
+    <string name="top_state_on">ACTIVE · :%1$s</string>
+    <string name="top_state_starting">STARTING…</string>
+    <string name="top_state_error">ERROR</string>
+    <string name="top_state_off">OFF</string>
+    <string name="top_bubble">Bubble</string>
+    <string name="top_vpn">VPN</string>
+    <string name="main_vpn_consent_error">Cannot open VPN consent: %1$s</string>
+
+    <!-- Setup -->
+    <string name="setup_intro">Local HTTP/HTTPS debugging proxy. Grant these permissions once; afterwards a single tap on the floating bubble turns the proxy on or off.</string>
+    <string name="setup_vpn_title">Local VPN tunnel</string>
+    <string name="setup_vpn_desc">Publishes 127.0.0.1 as HTTP proxy for other apps. No traffic leaves the device through the VPN; this app and terminals are excluded to avoid loops.</string>
+    <string name="setup_overlay_title">Display over other apps</string>
+    <string name="setup_overlay_desc">Required for the floating one-tap bubble and the mini HUD (Forward / Drop while you stay inside the target app).</string>
+    <string name="setup_notif_title">Notifications</string>
+    <string name="setup_notif_desc">Android requires a visible notification for the proxy and bubble foreground services.</string>
+    <string name="setup_continue">Continue</string>
+    <string name="setup_continue_missing">Continue (some permissions missing)</string>
+    <string name="setup_next_ca">Next: install the CA certificate from Tools › CA Cert to decrypt HTTPS.</string>
+    <string name="setup_granted">Granted</string>
+    <string name="setup_grant">Grant</string>
+
+    <!-- History -->
+    <string name="hist_loading">Loading…</string>
+    <string name="hist_export_json">Export JSON</string>
+    <string name="hist_auto_json">Auto-JSON GET/POST</string>
+    <string name="hist_filter_hint">Filter host / path / headers</string>
+    <string name="hist_clear_filter">Clear filter</string>
+    <string name="hist_clear_history">Clear history</string>
+    <string name="hist_hide_static">Hide static</string>
+    <string name="hist_count">%1$d shown · %2$d captured</string>
+    <string name="hist_empty">No traffic yet.\nTurn the proxy on (switch at the top or tap the bubble).</string>
+    <string name="hist_clear_title">Clear history?</string>
+    <string name="hist_clear_text">All captured transactions and stored bodies will be deleted.</string>
+    <string name="hist_err">ERR</string>
+    <string name="status_all">All</string>
+    <string name="status_err">Err</string>
+    <string name="msg_auto_on">Auto-JSON on: GET/POST → %1$s</string>
+    <string name="msg_auto_off">Auto-JSON off</string>
+    <string name="msg_saved">Saved: %1$s</string>
+    <string name="msg_exported">Exported %1$d requests: %2$s</string>
+    <string name="msg_sent_kaliterm">Sent to %1$s · cURL copied · %2$s</string>
+    <string name="msg_export_error">Export error: %1$s</string>
+    <string name="delivery_run_command">KaliTerm (RUN_COMMAND)</string>
+    <string name="delivery_send">KaliTerm (share)</string>
+    <string name="delivery_share_sheet">share sheet</string>
+    <string name="share_chooser_title">Send request to…</string>
+
+    <!-- Transaction detail -->
+    <string name="detail_back">Back</string>
+    <string name="detail_no_response">no response</string>
+    <string name="detail_edited">edited</string>
+    <string name="detail_save_json">Save JSON</string>
+    <string name="detail_send_repeater">Send to Repeater</string>
+    <string name="detail_send_kaliterm">Send to KaliTerm</string>
+    <string name="detail_copy_curl">Copy cURL</string>
+    <string name="detail_copy_url">Copy URL</string>
+    <string name="detail_copy_raw">Copy raw</string>
+    <string name="detail_request">Request</string>
+    <string name="detail_response">Response</string>
+    <string name="detail_no_response_recorded">No response recorded</string>
+
+    <!-- Intercept -->
+    <string name="int_queue">Queue</string>
+    <string name="int_match_replace">Match &amp; Replace</string>
+    <string name="int_on">Intercept is ON</string>
+    <string name="int_off">Intercept is OFF</string>
+    <string name="int_responses">Responses too</string>
+    <string name="int_skip_static">Skip static</string>
+    <string name="int_host_filter">Only hosts matching regex (empty = all)</string>
+    <string name="int_waiting">Waiting for requests…</string>
+    <string name="int_passthrough">Pass-through mode: traffic is only recorded.</string>
+    <string name="int_response_from">Response from %1$s</string>
+    <string name="int_request_to">Request to %1$s</string>
+    <string name="int_forward">Forward</string>
+    <string name="int_drop">Drop</string>
+    <string name="int_forward_all">Forward all</string>
+
+    <!-- Match & Replace -->
+    <string name="mr_new_rule">New rule</string>
+    <string name="mr_target">Target: %1$s ▾</string>
+    <string name="mr_match">Match (regex; empty = add header)</string>
+    <string name="mr_replace">Replace (supports $1 groups)</string>
+    <string name="mr_comment">Comment</string>
+    <string name="mr_add">Add rule</string>
+    <string name="mr_examples">Examples: header \'^User-Agent:.*$\' → \'User-Agent: OneProxyClick\' · body \'\"debug\":false\' → \'\"debug\":true\'</string>
+    <string name="mr_none">No rules.</string>
+    <string name="mr_add_marker">&lt;add&gt;</string>
+    <string name="mr_remove_marker">&lt;remove&gt;</string>
+    <string name="mr_invalid">Invalid regex</string>
+    <string name="mr_delete">Delete rule</string>
+    <string name="rt_request_header">Request header</string>
+    <string name="rt_request_body">Request body</string>
+    <string name="rt_response_header">Response header</string>
+    <string name="rt_response_body">Response body</string>
+
+    <!-- Tools -->
+    <string name="tools_ca">CA Cert</string>
+    <string name="tools_decoder">Decoder</string>
+    <string name="tools_settings">Settings</string>
+
+    <!-- CA -->
+    <string name="ca_root">Root CA</string>
+    <string name="ca_loading">Generating / loading…</string>
+    <string name="ca_valid_until">Valid until: %1$s</string>
+    <string name="ca_sha">SHA-256: %1$s</string>
+    <string name="ca_installed">✔ Installed in user credential store</string>
+    <string name="ca_not_installed">✘ Not installed (HTTPS apps will reject the proxy)</string>
+    <string name="ca_saved">Saved to Download/OneProxyClick_CA.crt</string>
+    <string name="ca_export_failed">Export failed: %1$s</string>
+    <string name="ca_btn_export">1. Export to /sdcard/Download</string>
+    <string name="ca_btn_installer">2a. Open credential installer</string>
+    <string name="ca_btn_security">2b. Open Security settings</string>
+    <string name="ca_btn_recheck">Re-check installation</string>
+    <string name="ca_instructions">How to install (Android 11+):\nSettings › Security &amp; privacy › More security settings › Encryption &amp; credentials › Install a certificate › CA certificate → pick Download/OneProxyClick_CA.crt.\n(The legacy installer intent only shows a hint on Android 11+.)\n\nNotes:\n• Since Android 7 apps trust user CAs only if they opt in (network_security_config) or are debuggable builds you control. Chrome trusts user CAs; Firefox needs \"Use third party CA certificates\".\n• Apps with certificate pinning will fail the handshake: they appear in history as \"Client TLS handshake failed\". Add those hosts to the pass-through list in Settings.\n• Browsers can also fetch the cert from http://127.0.0.1:&lt;port&gt;/cert while the proxy is running.</string>
+    <string name="ca_regenerate_btn">Regenerate CA…</string>
+    <string name="ca_regenerate_title">Regenerate Root CA?</string>
+    <string name="ca_regenerate_text">A new key pair is created. The currently installed certificate stops working and must be removed and re-installed.</string>
+    <string name="ca_regenerate">Regenerate</string>
+
+    <!-- Settings -->
+    <string name="set_language_title">Idioma / Language</string>
+    <string name="set_language_note">Applies instantly to the whole app, the floating bubble and notifications (the VPN keeps running).</string>
+    <string name="set_open_setup">Open permission setup</string>
+    <string name="set_last_error">Last tunnel error: %1$s</string>
+    <string name="set_engine">Proxy engine</string>
+    <string name="set_port">Listen port (127.0.0.1)</string>
+    <string name="set_port_note">Port changes apply the next time the tunnel starts.</string>
+    <string name="set_mitm">Decrypt HTTPS (MITM)</string>
+    <string name="set_verify">Verify upstream TLS certificates</string>
+    <string name="set_json_export">JSON export</string>
+    <string name="set_auto_json_note">Appends each completed GET/POST to %1$s/live_capture_YYYY-MM-DD.jsonl (one JSON object per line). Single/filtered exports: Proxy tab › \"%2$s\" / \"%3$s\".</string>
+    <string name="set_passthrough">TLS pass-through hosts (one per line, sub-domains included)</string>
+    <string name="set_save_passthrough">Save pass-through list</string>
+    <string name="set_split">Split Tunneling</string>
+    <string name="set_split_exclude">All apps except selected</string>
+    <string name="set_split_include">Only selected apps</string>
+    <string name="set_always_excluded">Always excluded (anti-loop): %1$s. Changes apply on next tunnel start.</string>
+    <string name="set_search_apps">Search apps</string>
+    <string name="set_show_system">Show system apps</string>
+    <string name="set_clear_selection">Clear selection (%1$d)</string>
+
+    <!-- KaliTerm bridge -->
+    <string name="br_title">KaliTerm Bridge</string>
+    <string name="br_exporting">Exporting opc-cli.sh…</string>
+    <string name="br_export_failed">✘ export failed: %1$s</string>
+    <string name="br_live_title">Live Stream JSONL</string>
+    <string name="br_live_active">Active: each completed GET/POST is written + flushed to</string>
+    <string name="br_live_inactive">Enable \"Auto-JSON GET/POST\" above to stream to</string>
+    <string name="br_live_count">Lines written this session: %1$d</string>
+    <string name="br_last_error">last error: %1$s</string>
+    <string name="br_fwd_title">Local Forwarder</string>
+    <string name="br_fwd_switch">Forward to local port</string>
+    <string name="br_target_hint">host:port</string>
+    <string name="br_http">HTTP POST</string>
+    <string name="br_tcp">TCP (JSON line)</string>
+    <string name="br_fwd_stats">Sent: %1$d · failed: %2$d</string>
+    <string name="br_receiver">Receiver in KaliTerm: %1$s</string>
+    <string name="br_remote_title">Local control API (HTTP)</string>
+    <string name="br_require_token">Require token</string>
+    <string name="br_no_token_warning">⚠ Without a token any app on this device can start/stop the proxy and change Intercept through the local API.</string>
+    <string name="br_token">token: %1$s</string>
+    <string name="br_copy_token">Copy token</string>
+    <string name="br_regenerate">Regenerate</string>
+    <string name="br_reexport">Re-export</string>
+    <string name="br_copy_install">Copy install cmd</string>
+    <string name="br_api_port">Control API port (127.0.0.1)</string>
+    <string name="br_api_listening">✔ Listening on 127.0.0.1:%1$d</string>
+    <string name="br_api_error">✘ Not listening on port %1$d: %2$s</string>
+    <string name="br_api_stopped">Control API stopped</string>
+    <string name="br_copy_test">Copy test command</string>
+
+    <!-- Pro -->
+    <string name="pro_title">OneProxyClick Pro</string>
+    <string name="pro_badge">PRO</string>
+    <string name="pro_subtitle">One-time purchase, unlocked for life on your Google account.</string>
+    <string name="pro_features_header">Pro unlocks:</string>
+    <string name="pro_f_live">Auto-JSON GET/POST and live .jsonl stream</string>
+    <string name="pro_f_bridge">KaliTerm bridge: local API (127.0.0.1) and forward to local port</string>
+    <string name="pro_f_tabs">Unlimited Repeater tabs</string>
+    <string name="pro_f_rules">Match &amp; Replace rules</string>
+    <string name="pro_free_header">Always free:</string>
+    <string name="pro_free_list">VPN tunnel · HTTPS capture · floating bubble · 1 Repeater tab · Decoder · single JSON export</string>
+    <string name="pro_buy">Unlock Pro — %1$s</string>
+    <string name="pro_restore">Restore purchase</string>
+    <string name="pro_owned">✔ Pro unlocked. Thank you!</string>
+    <string name="pro_pending">Payment pending — Pro unlocks when it completes.</string>
+    <string name="pro_connecting">Connecting to Google Play…</string>
+    <string name="pro_unavailable">Google Play Billing unavailable: %1$s</string>
+    <string name="pro_error">Purchase error: %1$s</string>
+    <string name="pro_foss">FOSS build: every feature is unlocked for free.</string>
+    <string name="pro_locked">%1$s requires OneProxyClick Pro</string>
+    <string name="pro_unlock">Unlock</string>
+    <string name="pro_close">Close</string>
+    <string name="pro_tabs_limit">The free version allows 1 Repeater tab.</string>
+    <string name="br_api_locked">Control API off (requires Pro)</string>
+</resources>

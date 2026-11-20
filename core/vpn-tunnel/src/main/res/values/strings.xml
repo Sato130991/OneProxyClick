@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vpn_session_name">OneProxyClick</string>
+    <string name="vpn_channel_name">Proxy tunnel</string>
+    <string name="vpn_notification_starting">Starting proxy tunnel…</string>
+    <string name="vpn_notification_stopping">Stopping…</string>
+    <string name="vpn_notification_running">HTTP proxy %1$s active</string>
+    <string name="vpn_action_stop">Stop</string>
+    <string name="vpn_error_no_engine">Proxy engine not registered</string>
+    <string name="vpn_error_consent_revoked">VPN consent was revoked</string>
+</resources>

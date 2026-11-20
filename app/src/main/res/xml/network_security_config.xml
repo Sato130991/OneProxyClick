@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Cleartext (http://) is allowed: OneProxyClick is a debugging tool and the Repeater must be able
+    to replay plain-HTTP requests to any host. Loopback is listed explicitly so the KaliTerm bridge
+    ("Forward to local port", 127.0.0.1:9090) keeps working even if the base policy is tightened.
+    Netty's proxy sockets are raw sockets and are not affected by this policy.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">127.0.0.1</domain>
+        <domain includeSubdomains="false">localhost</domain>
+    </domain-config>
+</network-security-config>

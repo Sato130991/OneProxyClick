@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="overlay_channel_name">Floating button</string>
+    <string name="overlay_notification_text">Floating proxy button is active</string>
+    <string name="overlay_vpn_permission_needed">Open OneProxyClick once to grant the VPN permission</string>
+    <string name="overlay_action_hide">Hide</string>
+    <string name="overlay_permission_missing">Overlay permission missing</string>
+    <string name="overlay_status_on">● Proxy ON  127.0.0.1:%1$s</string>
+    <string name="overlay_status_starting">● Starting…</string>
+    <string name="overlay_status_error">● Error: %1$s</string>
+    <string name="overlay_status_off">● Proxy OFF</string>
+    <string name="overlay_unknown">unknown</string>
+    <string name="overlay_vpn_on">VPN ON</string>
+    <string name="overlay_vpn_off">VPN OFF</string>
+    <string name="overlay_intercept">Intercept</string>
+    <string name="overlay_waiting">Intercept ON — waiting for traffic</string>
+    <string name="overlay_passthrough">Intercept OFF — pass-through</string>
+    <string name="overlay_forward">Forward</string>
+    <string name="overlay_drop">Drop</string>
+    <string name="overlay_forward_all">Fwd All</string>
+    <string name="overlay_open_app">Open app</string>
+    <string name="overlay_collapse">Collapse</string>
+</resources>

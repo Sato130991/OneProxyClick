@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dec_op_base64_decode">Decodificar Base64</string>
+    <string name="dec_op_base64_encode">Codificar Base64</string>
+    <string name="dec_op_base64url_decode">Decodificar Base64URL</string>
+    <string name="dec_op_base64url_encode">Codificar Base64URL</string>
+    <string name="dec_op_url_decode">Decodificar URL</string>
+    <string name="dec_op_url_encode">Codificar URL</string>
+    <string name="dec_op_hex_decode">Decodificar Hex</string>
+    <string name="dec_op_hex_encode">Codificar Hex</string>
+    <string name="dec_op_html_decode">Decodificar HTML</string>
+    <string name="dec_op_html_encode">Codificar HTML</string>
+    <string name="dec_op_gzip_decompress">Descomprimir Gzip</string>
+    <string name="dec_op_gzip_compress">Comprimir Gzip</string>
+    <string name="dec_op_jwt_decode">Decodificar JWT</string>
+    <string name="dec_input">Entrada</string>
+    <string name="dec_paste">Pegar</string>
+    <string name="dec_clear">Limpiar</string>
+    <string name="dec_remove_step">Quitar paso</string>
+    <string name="dec_error">Error: %1$s</string>
+    <string name="dec_previous_failed">falló el paso anterior</string>
+    <string name="dec_copy">Copiar</string>
+    <string name="dec_use_as_input">Usar como entrada</string>
+    <string name="dec_add_step">Añadir paso</string>
+    <string name="dec_err_hex_odd">La entrada Hex debe tener un número par de dígitos</string>
+    <string name="dec_err_not_jwt">No es un JWT (se esperaba cabecera.payload.firma)</string>
+    <string name="dec_err_generic">Entrada no válida para este paso</string>
+</resources>

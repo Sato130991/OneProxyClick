@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ca_export_create_failed">MediaStore no permitió crear %1$s</string>
+    <string name="ca_export_open_failed">No se puede abrir el flujo de escritura de %1$s</string>
+</resources>

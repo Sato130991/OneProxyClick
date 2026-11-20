@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dec_op_base64_decode">Base64 decode</string>
+    <string name="dec_op_base64_encode">Base64 encode</string>
+    <string name="dec_op_base64url_decode">Base64URL decode</string>
+    <string name="dec_op_base64url_encode">Base64URL encode</string>
+    <string name="dec_op_url_decode">URL decode</string>
+    <string name="dec_op_url_encode">URL encode</string>
+    <string name="dec_op_hex_decode">Hex decode</string>
+    <string name="dec_op_hex_encode">Hex encode</string>
+    <string name="dec_op_html_decode">HTML decode</string>
+    <string name="dec_op_html_encode">HTML encode</string>
+    <string name="dec_op_gzip_decompress">Gzip decompress</string>
+    <string name="dec_op_gzip_compress">Gzip compress</string>
+    <string name="dec_op_jwt_decode">JWT decode</string>
+    <string name="dec_input">Input</string>
+    <string name="dec_paste">Paste</string>
+    <string name="dec_clear">Clear</string>
+    <string name="dec_remove_step">Remove step</string>
+    <string name="dec_error">Error: %1$s</string>
+    <string name="dec_previous_failed">previous step failed</string>
+    <string name="dec_copy">Copy</string>
+    <string name="dec_use_as_input">Use as input</string>
+    <string name="dec_add_step">Add step</string>
+    <string name="dec_err_hex_odd">Hex input must have an even number of digits</string>
+    <string name="dec_err_not_jwt">Not a JWT (expected header.payload.signature)</string>
+    <string name="dec_err_generic">Invalid input for this step</string>
+</resources>

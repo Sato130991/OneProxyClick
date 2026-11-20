@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="overlay_channel_name">Botón flotante</string>
+    <string name="overlay_notification_text">El botón flotante del proxy está activo</string>
+    <string name="overlay_vpn_permission_needed">Abre OneProxyClick una vez para conceder el permiso de VPN</string>
+    <string name="overlay_action_hide">Ocultar</string>
+    <string name="overlay_permission_missing">Falta el permiso de superposición</string>
+    <string name="overlay_status_on">● Proxy ACTIVO  127.0.0.1:%1$s</string>
+    <string name="overlay_status_starting">● Iniciando…</string>
+    <string name="overlay_status_error">● Error: %1$s</string>
+    <string name="overlay_status_off">● Proxy APAGADO</string>
+    <string name="overlay_unknown">desconocido</string>
+    <string name="overlay_vpn_on">VPN ON</string>
+    <string name="overlay_vpn_off">VPN OFF</string>
+    <string name="overlay_intercept">Intercept</string>
+    <string name="overlay_waiting">Intercept ON — esperando tráfico</string>
+    <string name="overlay_passthrough">Intercept OFF — solo registro</string>
+    <string name="overlay_forward">Forward</string>
+    <string name="overlay_drop">Drop</string>
+    <string name="overlay_forward_all">Fwd All</string>
+    <string name="overlay_open_app">Abrir app</string>
+    <string name="overlay_collapse">Contraer</string>
+</resources>

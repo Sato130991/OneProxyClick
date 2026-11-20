@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rep_tab_title">Tab %1$d</string>
+    <string name="rep_new_tab">New tab</string>
+    <string name="rep_close_tab">Close active tab</string>
+    <string name="rep_tls">TLS</string>
+    <string name="rep_host">Host</string>
+    <string name="rep_port">Port</string>
+    <string name="rep_send">Send</string>
+    <string name="rep_previous">Previous</string>
+    <string name="rep_next">Next</string>
+    <string name="rep_ignore_tls">Ignore TLS errors</string>
+    <string name="rep_parse_error">Parse error: %1$s</string>
+    <string name="rep_invalid_request">Invalid request</string>
+    <string name="rep_request_raw">Request (raw)</string>
+    <string name="rep_response_placeholder">Response will appear here</string>
+    <string name="viewer_pretty">Pretty</string>
+    <string name="viewer_raw">Raw</string>
+    <string name="viewer_headers">Headers</string>
+    <string name="viewer_hex">Hex</string>
+    <string name="viewer_empty_body">&lt;empty body&gt;</string>
+    <string name="rep_save_json">Save JSON</string>
+</resources>

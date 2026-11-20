@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rep_tab_title">Pestaña %1$d</string>
+    <string name="rep_new_tab">Nueva pestaña</string>
+    <string name="rep_close_tab">Cerrar pestaña activa</string>
+    <string name="rep_tls">TLS</string>
+    <string name="rep_host">Host</string>
+    <string name="rep_port">Puerto</string>
+    <string name="rep_send">Enviar</string>
+    <string name="rep_previous">Anterior</string>
+    <string name="rep_next">Siguiente</string>
+    <string name="rep_ignore_tls">Ignorar errores TLS</string>
+    <string name="rep_parse_error">Error de análisis: %1$s</string>
+    <string name="rep_invalid_request">Petición no válida</string>
+    <string name="rep_request_raw">Petición (Raw)</string>
+    <string name="rep_response_placeholder">La respuesta aparecerá aquí</string>
+    <string name="viewer_pretty">Pretty</string>
+    <string name="viewer_raw">Raw</string>
+    <string name="viewer_headers">Headers</string>
+    <string name="viewer_hex">Hex</string>
+    <string name="viewer_empty_body">&lt;cuerpo vacío&gt;</string>
+    <string name="rep_save_json">Guardar JSON</string>
+</resources>
