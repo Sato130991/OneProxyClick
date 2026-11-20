@@ -14,7 +14,7 @@ bouncycastle = "1.79"
 okhttp = "4.12.0"
 brotli = "0.1.2"
 junit = "4.13.2"
-billing = "7.1.1"
+billing = "8.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
