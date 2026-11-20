@@ -63,4 +63,4 @@ Cualquier actualización a esta Política de Privacidad se publicará en esta mi
 * The one-time lifetime upgrade to **OneProxyClick Pro** is processed exclusively by **Google Play Billing**. OneProxyClick never accesses credit card or billing details; the app only receives a purchase confirmation token from Google Play to unlock Pro features.
 
 ### 6. Updates & Contact
-Any updates to this Privacy Policy will be posted on this page. For privacy or security inquiries, contact: **tu-correo@ejemplo.com**.
+Any updates to this Privacy Policy will be posted on this page. For privacy or security inquiries, contact: **kevinmitnick1313@gmail.com**.
